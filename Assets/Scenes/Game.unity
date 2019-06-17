@@ -177,6 +177,7 @@ MonoBehaviour:
   deathFX: {fileID: 5751337426835882065, guid: 0c46395f3c00541b987db1889cf44f0e, type: 3}
   parent: {fileID: 873907627}
   scorePerHit: 10
+  hits: 10
 --- !u!1 &89622816
 GameObject:
   m_ObjectHideFlags: 0
@@ -302,6 +303,7 @@ MonoBehaviour:
   deathFX: {fileID: 5751337426835882065, guid: 0c46395f3c00541b987db1889cf44f0e, type: 3}
   parent: {fileID: 873907627}
   scorePerHit: 20
+  hits: 10
 --- !u!1 &483181711 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1090395654553690, guid: e14d375f5a36551479fc2f172353b1ba,
@@ -329,6 +331,7 @@ MonoBehaviour:
   deathFX: {fileID: 5751337426835882065, guid: 0c46395f3c00541b987db1889cf44f0e, type: 3}
   parent: {fileID: 873907627}
   scorePerHit: 20
+  hits: 10
 --- !u!1 &618375344
 GameObject:
   m_ObjectHideFlags: 0
@@ -457,6 +460,7 @@ MonoBehaviour:
   deathFX: {fileID: 5751337426835882065, guid: 0c46395f3c00541b987db1889cf44f0e, type: 3}
   parent: {fileID: 873907627}
   scorePerHit: 10
+  hits: 20
 --- !u!1 &818098896
 GameObject:
   m_ObjectHideFlags: 0
@@ -825,6 +829,13 @@ MonoBehaviour:
   deathFX: {fileID: 5751337426835882065, guid: 0c46395f3c00541b987db1889cf44f0e, type: 3}
   parent: {fileID: 873907627}
   scorePerHit: 10
+  hits: 10
+--- !u!1 &1393150738 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3126474241554626980, guid: 8ccf8b216718c43d0a40785d380ae78d,
+    type: 3}
+  m_PrefabInstance: {fileID: 5300624341657066330}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1420127137
 GameObject:
   m_ObjectHideFlags: 0
@@ -1124,6 +1135,7 @@ MonoBehaviour:
   deathFX: {fileID: 5751337426835882065, guid: 0c46395f3c00541b987db1889cf44f0e, type: 3}
   parent: {fileID: 873907627}
   scorePerHit: 10
+  hits: 10
 --- !u!1 &1649072799 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1090395654553690, guid: e14d375f5a36551479fc2f172353b1ba,
@@ -1151,6 +1163,7 @@ MonoBehaviour:
   deathFX: {fileID: 5751337426835882065, guid: 0c46395f3c00541b987db1889cf44f0e, type: 3}
   parent: {fileID: 873907627}
   scorePerHit: 20
+  hits: 20
 --- !u!1 &1656933536
 GameObject:
   m_ObjectHideFlags: 0
@@ -1217,6 +1230,12 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1733226292 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5300624341977951623, guid: 8ccf8b216718c43d0a40785d380ae78d,
+    type: 3}
+  m_PrefabInstance: {fileID: 5300624341657066330}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1733932317
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1476,6 +1495,7 @@ MonoBehaviour:
   deathFX: {fileID: 5751337426835882065, guid: 0c46395f3c00541b987db1889cf44f0e, type: 3}
   parent: {fileID: 873907627}
   scorePerHit: 10
+  hits: 10
 --- !u!1001 &2026892283
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1838,6 +1858,28 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2144276637, guid: 8ccf8b216718c43d0a40785d380ae78d, type: 3}
+      propertyPath: guns.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2144276637, guid: 8ccf8b216718c43d0a40785d380ae78d, type: 3}
+      propertyPath: guns.Array.data[0]
+      value: 
+      objectReference: {fileID: 1733226292}
+    - target: {fileID: 2144276637, guid: 8ccf8b216718c43d0a40785d380ae78d, type: 3}
+      propertyPath: guns.Array.data[1]
+      value: 
+      objectReference: {fileID: 1393150738}
+    - target: {fileID: 5300624341977951623, guid: 8ccf8b216718c43d0a40785d380ae78d,
+        type: 3}
+      propertyPath: m_Name
+      value: Gun Left
+      objectReference: {fileID: 0}
+    - target: {fileID: 3126474241554626980, guid: 8ccf8b216718c43d0a40785d380ae78d,
+        type: 3}
+      propertyPath: m_Name
+      value: Gun Right
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8ccf8b216718c43d0a40785d380ae78d, type: 3}
