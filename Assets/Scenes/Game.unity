@@ -177,7 +177,7 @@ MonoBehaviour:
   deathFX: {fileID: 5751337426835882065, guid: 0c46395f3c00541b987db1889cf44f0e, type: 3}
   parent: {fileID: 873907627}
   scorePerHit: 10
-  hits: 10
+  hits: 3
 --- !u!1 &89622816
 GameObject:
   m_ObjectHideFlags: 0
@@ -303,7 +303,7 @@ MonoBehaviour:
   deathFX: {fileID: 5751337426835882065, guid: 0c46395f3c00541b987db1889cf44f0e, type: 3}
   parent: {fileID: 873907627}
   scorePerHit: 20
-  hits: 10
+  hits: 3
 --- !u!1 &483181711 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1090395654553690, guid: e14d375f5a36551479fc2f172353b1ba,
@@ -331,7 +331,7 @@ MonoBehaviour:
   deathFX: {fileID: 5751337426835882065, guid: 0c46395f3c00541b987db1889cf44f0e, type: 3}
   parent: {fileID: 873907627}
   scorePerHit: 20
-  hits: 10
+  hits: 3
 --- !u!1 &618375344
 GameObject:
   m_ObjectHideFlags: 0
@@ -460,7 +460,7 @@ MonoBehaviour:
   deathFX: {fileID: 5751337426835882065, guid: 0c46395f3c00541b987db1889cf44f0e, type: 3}
   parent: {fileID: 873907627}
   scorePerHit: 10
-  hits: 20
+  hits: 3
 --- !u!1 &818098896
 GameObject:
   m_ObjectHideFlags: 0
@@ -1135,7 +1135,7 @@ MonoBehaviour:
   deathFX: {fileID: 5751337426835882065, guid: 0c46395f3c00541b987db1889cf44f0e, type: 3}
   parent: {fileID: 873907627}
   scorePerHit: 10
-  hits: 10
+  hits: 3
 --- !u!1 &1649072799 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1090395654553690, guid: e14d375f5a36551479fc2f172353b1ba,
@@ -1163,7 +1163,7 @@ MonoBehaviour:
   deathFX: {fileID: 5751337426835882065, guid: 0c46395f3c00541b987db1889cf44f0e, type: 3}
   parent: {fileID: 873907627}
   scorePerHit: 20
-  hits: 20
+  hits: 3
 --- !u!1 &1656933536
 GameObject:
   m_ObjectHideFlags: 0
@@ -2019,5 +2019,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6384626626761061057, guid: 18638af63d6ca4e51b9f3d4eb1075e10,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 499c74d87f0e93a46a8f1d082b1dcf1c, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 18638af63d6ca4e51b9f3d4eb1075e10, type: 3}
